@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2016-18 kszaq (kszaquitto@gmail.com)
+# Copyright (C) 2018-present CoreELEC (https://coreelec.org)
+
+# no puedo evitar que al reiniciar desde el recovery lo haga hacia Android :'(
+#if /usr/sbin/fw_printenv whereToBootFrom 2&>1 > /dev/null; then /usr/sbin/fw_setenv whereToBootFrom external; fi
+#/usr/sbin/fw_setenv bootfromnand 0
+
+# esto simplemente reinicia desde LE/CE hacia el recovery
+/usr/sbin/reboot recovery

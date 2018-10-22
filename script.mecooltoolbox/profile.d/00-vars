@@ -1,0 +1,5 @@
+export PATH="$PATH:/storage/.kodi/addons/script.mecooltoolbox/bin"
+export scripts="/storage/.kodi/addons/script.mecooltoolbox/resources/scripts/bash"
+
+autor="fcoaaron"
+export eval scripts_$autor=$scripts

@@ -1,0 +1,2 @@
+#!/bin/sh
+tail /storage/.kodi/temp/kodi.log
