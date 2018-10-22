@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.mecooltoolbox" name="Mecool Toolbox" version="0.0.2" provider-name="Francisco Aarón">
+<addon id="script.mecooltoolbox" name="Mecool Toolbox" version="0.0.3" provider-name="Francisco Aarón">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
 
 
     </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
+    <extension point="xbmc.python.script" library="main.py">
         <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
