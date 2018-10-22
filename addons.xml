@@ -1,30 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="script.mecooltoolbox" name="Mecool Toolbox" version="0.0.3" provider-name="Francisco Aarón">
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="script.mecooltoolbox" name="Mecool Toolbox" provider-name="Francisco Aarón" version="0.0.3">
     <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="xbmc.python" version="2.25.0" />
 
 
     </requires>
-    <extension point="xbmc.python.script" library="main.py">
+    <extension library="main.py" point="xbmc.python.script">
         <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Utilidades para Mecool</summary>
         <description lang="en_GB">Addon con utilidades varias para facilitar la preparación y el uso de LibreElec/CoreElec en los tv boxes Mecool, aunque algunas de las utilidades podrían servir para otros boxes, como por ejemplo las de OSCam/TvHeadend.</description>
-        <language></language>
+        <language />
         <platform>all</platform>
         <license>unlicense</license>
-        <forum></forum>
-        <website></website>
+        <forum />
+        <website />
         <email>xyz@xyz.com</email>
-        <source></source>
-        <news></news>
-        <disclaimer></disclaimer>
+        <source />
+        <news />
+        <disclaimer />
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>
-</addons>
+</addon></addons>
