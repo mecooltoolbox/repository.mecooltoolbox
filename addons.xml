@@ -1,28 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="script.mecooltoolbox" name="Mecool Toolbox" provider-name="Francisco Aarón" version="0.0.3">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.mecooltoolboxgit" name="Mecool Toolbox Repositorio (Git)" version="1.0.0" provider-name="Francisco Aarón">
+    <extension point="xbmc.addon.repository" name="Mecool Toolbox Repositorio (Git)">
+            <info compressed="false">https://raw.githubusercontent.com/mecooltoolbox/repository.mecooltoolbox/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mecooltoolbox/repository.mecooltoolbox/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/mecooltoolbox/repository.mecooltoolbox/raw/master/repo/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+            <summary>Repositorio de Mecool Toolbox</summary>
+            <description>Repositorio de Mecool Toolbox</description>
+            <disclaimer></disclaimer>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.mecooltoolbox" name="Mecool Toolbox" version="0.0.3" provider-name="Francisco Aarón">
     <requires>
-        <import addon="xbmc.python" version="2.25.0" />
+        <import addon="xbmc.python" version="2.25.0"/>
 
 
     </requires>
-    <extension library="main.py" point="xbmc.python.script">
+    <extension point="xbmc.python.script" library="main.py">
         <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Utilidades para Mecool</summary>
         <description lang="en_GB">Addon con utilidades varias para facilitar la preparación y el uso de LibreElec/CoreElec en los tv boxes Mecool, aunque algunas de las utilidades podrían servir para otros boxes, como por ejemplo las de OSCam/TvHeadend.</description>
-        <language />
+        <language></language>
         <platform>all</platform>
         <license>unlicense</license>
-        <forum />
-        <website />
+        <forum></forum>
+        <website></website>
         <email>xyz@xyz.com</email>
-        <source />
-        <news />
-        <disclaimer />
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon></addons>
+</addon>
+</addons>
