@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.kiproremote.coreelec"
+       name="Mando KiPro CoreElec"
+       version="0.0.2"
+       provider-name="Francisco Aarón">
+    
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+    
+    <extension point="xbmc.service" library="service.py" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Mejoras del mando para CoreElec</summary>
+        <description lang="en_GB">
+Addon con mejoras para el mando incluído en el Mecool Ki Pro cuando se usa en CoreElec, como la activación de los botones APPS, DTV y FAV y asignación de funciones útiles a estos y otros botones.
+
+NOTA: Para la activación de los botones APPS, DTV y FAV debe reiniciar Kodi después de instalar este addon.
+        </description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email>xyz@xyz.com</email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+    
+</addon>
